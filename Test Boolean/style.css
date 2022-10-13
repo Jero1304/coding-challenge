@@ -1,0 +1,78 @@
+body{
+  background-image: url("img/background.jpg");
+  background-size:cover;
+}
+
+.container{
+  margin: auto;
+  width: 900px;
+  height: 700px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+.center{
+  margin: 60px;
+}
+
+/* header */
+.testa{
+  padding: 40px;
+  margin: auto;
+  text-align: center;
+  color: lime;
+  font-size: 10px;
+}
+  .logo{
+  width: 30%;
+  height: 30%;
+}
+
+  .option{
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  background-color: lime;
+  border-radius: 10px;
+
+}
+
+
+
+/* Main */
+
+.info{
+  color: white;
+  margin: auto;
+  padding: 10px;
+  border-color: black;
+  position: relative;
+  left: 30px;
+}
+.info > p{
+  font-size: 13px;
+  margin: auto;
+}
+  .proprietario{
+  font-size: 25px;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+  /* barre */
+  .barraG{
+    background-color: orange;
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+  }
+  .barraM{
+    background-color: lime;
+    border-radius: 5px;
+    width: 600px;
+    height: 25px;
+  }
+  .barraF{
+    background-color: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+  }
